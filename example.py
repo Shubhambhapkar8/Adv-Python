@@ -1,9 +1,9 @@
 # calculate simple intrest
-def simple_intrest(p: float|int, n: int, r: float|int) -> tuple:
+def simple_intrest(p: float|int, n: int, r: float|int) -> tuple: 
     """
-    p: principle in INR
-    n: number of years
-    r: rate of intrest in percent per annum
+    p: Principle in INR
+    n: Number of years
+    r: Rate of intrest in percent per annum
     output intrest amount
     """
     i= (p*n*r)/100
@@ -20,4 +20,4 @@ i, a = simple_intrest(p, n, r)
 
 # Print the intrest and amount
 print(f"simple Intrest : {i:.2f} INR")
-print(f"amount : {a:.2f} INR ")
+print(f"amount : {a:.2f} INR")
